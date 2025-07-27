@@ -1,0 +1,63 @@
+# 编译后的二进制文件
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+cobrademo
+cobrademo.exe
+
+# 测试二进制文件，使用go test -c构建
+*.test
+
+# 输出的delve调试器二进制文件
+__debug_bin
+
+# 依赖模块
+vendor/
+
+# Go工作区文件
+go.work
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+
+# 日志文件
+*.log
+
+# 操作系统生成的文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE 和编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+
+# 配置文件（如果包含敏感信息）
+config.yaml
+config.json
+*.conf
+
+# 构建输出目录
+dist/
+build/
+bin/
+
+# 覆盖率报告
+*.out
+coverage.html 
